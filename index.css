@@ -1,0 +1,141 @@
+/* mobile view */
+body{
+    background-image: url("./images/bg-intro-mobile.png");
+    background-color: #ff7b81;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400px
+;
+
+}
+h1 {
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+    columns: #ffe2e2;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    margin-right 30px;
+}
+
+.blue-box div{
+    display: inline-block;
+    font-weight: 600;
+}
+
+.blue-box{
+    line-height: 25px;
+    margin-left: 30px ;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+input{
+    box-sizing: border-box;
+    margin-left: left 10px;
+    margin-right: right 10px;
+    border-radius: 8px;
+    border: solid 1px gray;
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+padding-left: 12px;
+
+}
+
+#submit{
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: medium;
+    text-transform: uppercase;
+    color:white;
+    border: none;
+background-color: #39cc8a;
+box-shadow: 0px 10px 1px #37B27F;
+
+}
+
+form{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+background-color: white;
+margin-bottom: 40px;
+box-shadow: 0 8px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.terms{
+    color: #cac8d3;
+    font-size: 12px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 30px
+
+}
+
+.terms div{
+    cursor: pointer;
+    display:inline;
+    color: red;
+    font-weight: 500;
+}
+
+/* desktop view */
+@media(min-width: 1025px) {
+body{
+    height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-family: 'Poppins', sans-serif;
+}
+*left{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+}
+*left h1{
+font-size: 55px;
+}
+
+.left *{
+margin-left: 0;
+text-align: left;
+}
+.container{
+    min-width: 1160px;
+    max-width: 1300px;
+    width: 85%;
+display: grid;
+grid-template-rows: auto;
+grid-template-columns: 45% 55%;
+}
